@@ -1,0 +1,134 @@
+﻿body
+{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    padding: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: #ddeeff;
+    background: linear-gradient(to right, #8899aa, #aabbcc, #8899aa);
+}
+
+header
+{    
+    text-align: center;
+    /*background: #ddeeff;*/
+}
+
+div
+{
+    height: inherit;
+    background: #ccddee;
+    border-radius: 10px;
+    padding: 1%;
+    overflow: auto;
+}
+
+#navbar
+{
+    margin: 0;
+    background: none;
+    text-align: center;
+}
+
+.navitem
+{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 30%;
+    background: #ccddee;
+    border-radius: 10px;
+    padding: 1%;
+    display: inline-block;
+    font-weight: bold;   
+}
+
+#navhome
+{
+    margin-right: 1.6%;
+}
+
+#navvehicles
+{
+    margin-left: 1.6%;
+}
+
+main
+{
+    height: 600px;
+    background: #ccddee;
+    border-radius: 10px;
+}
+
+.employeeboxcontainer
+{
+    height: 600px;
+}
+
+.employeebox
+{
+    position: relative;
+    bottom: -13%;
+    height: 185px;
+    width: 21.5%;
+    margin: 0.75%;
+    background: linear-gradient(to right, #bbccdd, #aabbcc, #bbccdd);
+    float: left;
+    text-align: center;
+}
+
+.vehicleboxcontainer
+{
+    height: 600px;
+}
+
+.vehiclebox
+{
+    position: relative;
+    bottom: -19%;
+    height: 185px;
+    width: 21.5%;
+    margin: 0.75%;
+    background: linear-gradient(to right, #bbccdd, #aabbcc, #bbccdd);
+    float: left;
+    text-align: center;
+}
+
+footer
+{
+    font-weight: bold;
+}
+
+img.borderedimage
+{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background: white;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+img.floatright
+{
+    float: right;
+}
+
+img.indexpics
+{
+    position: relative;
+    bottom: -27%;
+}
+
+img.fadedimage
+{
+    background: radial-gradient(rgba(255, 255, 255, 255) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+a
+{
+    color: #556699;
+}
+
+a:visited
+{
+    color: #886699;
+}
